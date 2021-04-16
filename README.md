@@ -1,6 +1,5 @@
 # rutificador
 
-=======
 Programa que sirve para ver información de personas naturales de Chile.
 
 ### Pre-requisitos 📋
