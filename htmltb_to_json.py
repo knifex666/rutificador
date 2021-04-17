@@ -29,3 +29,16 @@ def api1_conversor(nombre):
     json = [dict(zip(h, i)) for i in d]
 
     return json
+
+def normalizar(s):
+    remplazos = (
+        ("á", "a"),
+        ("é", "e"),
+        ("í", "i"),
+        ("ó", "o"),
+        ("ú", "u"),
+    )
+    for a, b in remplazos:
+        s = s.replace(a, b)
+    s = s.upper()
+    return s
