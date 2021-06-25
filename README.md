@@ -2,7 +2,7 @@
 
 Programa que sirve para ver información de personas naturales de Chile.
 
-### Pre-requisitos 📋
+### Requisitos 📋
 
 _requests, beautifulsoup4_
 
